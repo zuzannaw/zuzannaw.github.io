@@ -20,18 +20,39 @@
 }
 
 .inwestor {
-    border: solid; 
+    
     padding: 10px;
     text-align: center;
 }
 
 .mieszkaniec {
-    border: solid; 
+    
     padding: 10px;
     text-align: center;
     margin-bottom: 20px;
 
 }
+
+.pudelkainwestycje {
+    display:block;
+    height: 200px;
+    width:100%;
+    border: solid black;
+    
+        text-align: center;
+    background: transparent url() no-repeat center;
+    background-size: cover;
+    
+   
+}
+
+.pudelkainwestycje.w1 {
+    background-image: url(http://static.panoramio.com/photos/large/53938661.jpg);
+
+}
+
+
+
 
 
     

@@ -6,7 +6,7 @@
 
     <meta charset="utf-8">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Mój wspaniały prototyp czegoś</title>
+    <title>wkr app</title>
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -56,40 +56,43 @@
 
 
     <div class="container-fluid">
-        <div class="mieszkaniec"> 
         
-        <div class="dropdown">
-       
-  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-    MIESZKANIEC
-    <span class="caret"></span>
-  </button>
-  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-    <li><a href="wydarzenia.html">wydarzenia</a></li>
-    <li><a href="kontakt.html">kontakt</a></li>
-    
-   
-  </ul>
-</div>
-        </div>
    
         
                     
        
         <div class="inwestor">  
-            <div class="dropdown">
-       
-  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-  INWESTOR
-    <span class="caret"></span>
-  </button>
-  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-    <li><a href="inwestycje.html">inwestycje</a></li>
-    <li><a href="kontakt.html">kontakt</a></li>
-    
-   
-  </ul>
-</div>
+        
+ <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">MIESZKANIEC</a>
+                </h4>
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse in">
+                <div class="panel-body">
+                    <p><a href="wydarzenia.html">WYDARZENIA</a></p>
+            <p><a href="kontakt.html">KONTAKT</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">INWESTOR</a>
+                </h4>
+            </div>
+            <div id="collapseTwo" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <p><a href="inwestycje.html">INWESTYCJE</a></p>
+                    <p><a href="kontakt.html">KONTAKT</a></p>
+                </div>
+            </div>
+        </div>
+        
+            </div>
+        </div>
         </div>
    
             
