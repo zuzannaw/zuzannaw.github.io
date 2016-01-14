@@ -1,0 +1,57 @@
+.navbar-form a {
+    color: #000;
+    text-decoration: none;
+}
+
+.navbar-form a:hover {
+    color: #000;
+}
+
+.ma-efekt {
+    transition: all 500ms ease;
+    background: green;
+    height: 20px;
+    width: 45px;
+}
+.ma-efekt.powieksz {
+    width: 200px;
+    height: 300px;
+    
+}
+
+.inwestor {
+    border: solid; 
+    padding: 10px;
+    text-align: center;
+}
+
+.mieszkaniec {
+    border: solid; 
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+
+    
+
+/*to jest przykłąd, ale nie używajcie hover ;)
+.ma-efekt:hover {
+    height: 200px;
+}
+*/
+
+@media (orientation: landscape) {
+    /*poziomo trzymane urządzenie*/
+}
+
+/*@media (max-width: 800px) {
+    .ukryte-ponizej-800 {
+        display: none;
+    }
+}
+
+/*@media (orientation: landscape) and (min-width: 800px) {
+    /*poziome i szersze niż 800*/
+}
